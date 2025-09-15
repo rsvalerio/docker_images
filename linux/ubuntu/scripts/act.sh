@@ -146,16 +146,19 @@ case "$(uname -m)" in
   'aarch64')
     scripts=(
       yq
+      helm
     )
     ;;
   'x86_64')
     scripts=(
       yq
+      helm
     )
     ;;
   'armv7l')
     scripts=(
       yq
+      helm
     )
     ;;
   *) exit 1 ;;
